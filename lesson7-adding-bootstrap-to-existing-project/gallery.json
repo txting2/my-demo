@@ -1,0 +1,17 @@
+{
+  "gallery":[
+    {
+      "title":"Starry Nights",
+      "url":"starry.jpg"  
+    },
+    {
+      "title":"Mona Lisa",
+      "url":"mona-lisa.jpg"
+    },
+    {
+      "title":"Pikachu",
+      "url":"pikachu.png"
+    }
+
+  ]
+}

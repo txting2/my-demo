@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.invisible {
+  display:none;
+}
+
+#all-pages {
+  margin: 0;
+  position:relative;
+  /*Have to set the parent page as position relative*/
+}
+
+.page {
+  padding: 2em;
+  height: calc(100vh - 40px);
+  width: 100%;
+  will-change: transform;
+  transition: transform 0.5s ease-in;
+  box-sizing:border-box;
+}
+
+#page-1 {  
+  background-color: aliceblue;
+  position:absolute;
+}
+
+#page-2 {
+  background-color: bisque;
+  position:absolute;
+}
+
+#page-3 {
+  background-color: azure;
+  position: absolute;
+}
+
+ .hidden {
+  transform:translateX(-100%);
+  /*To translate the page out of the screen, towards the left*/
+ }
+
+.shown {
+  transform:translateX(0);
+} 
+
+#main {
+  /*to remove the white padding at the side of the website*/
+  padding: 0!important;
+  /* !important will overwrite everything*/
+  margin:0!important;
+
+}
+#notification {
+  display:none;
+}
+
+#notification.show {
+  display: show;
+}
